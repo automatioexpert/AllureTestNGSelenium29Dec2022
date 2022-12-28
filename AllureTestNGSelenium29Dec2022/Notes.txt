@@ -1,0 +1,13 @@
+Steps for configuration of Allure TestNG Reports:
+1.Download maven zip and allure testng file and extract file 
+2.Set up environment variable path for mvn and allure bin folder
+3.check if mvn and allure is accessible from any location on system
+4.Add allure-testng dependency in the pom.xm;
+5.Create @Test testng test script and execute test using testng.xml file
+6.Once execution completed.Refresh the project
+7.allure-report folder will be generated with tons of json files in it
+8.Go to cmd command promt and run the below allure command:
+allure serve D:\My Framework VV\Dec2022_4\AllureTestNGSelenium29Dec2022\allure-results
+9.A new chrome instance will be launched like below:
+	->http://192.162.1.109:63445/index.html
+	
